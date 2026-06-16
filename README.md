@@ -24,7 +24,7 @@ Esta tabla contiene todos los componentes necesarios, el modelo utilizado y la c
 | Sonar               | HC-SR04                         | 3        |
 | Módulo IR           | TCRT5000                        | 2        |
 | Resistencia         | 10 $\Omega$, 1/4 W              | 3        |
-| Capacitor           | 470 $\Mu$F, 16 V                | 1        |
+| Capacitor           | 470 $\mu$F, 16 V                | 1        |
 | LED                 | 5mm                             | 3        |
 | Motor DC            | 3--6 V, doble eje               | 2        |
 | Rueda motriz        | 68x26mm                         | 2        |
