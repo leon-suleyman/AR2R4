@@ -12,6 +12,9 @@ mediante impresión 3D y componentes comerciales accesibles,
 pero al mismo tiempo suficientemente flexible como para cu-
 brir distintos niveles de complejidad educativa y tecnológica.
 
+## Componentes
+
+Esta tabla contiene todos los componentes necesarios, el modelo utilizado y la cantidad necesaria para armar el AR2R4 cuyo modelo 3D está compartido en este repositorio.
 
 | Componente          | Modelo                          | Cantidad |
 | ------------------- | ------------------------------- | -------- |
@@ -21,24 +24,29 @@ brir distintos niveles de complejidad educativa y tecnológica.
 | Sonar               | HC-SR04                         | 3        |
 | Módulo IR           | TCRT5000                        | 2        |
 | Resistencia         | 10 $\Omega$, 1/4 W              | 3        |
-| Capacitor           | 470 $\mu$F, 16 V                | 1        |
+| Capacitor           | 470 $\Mu$F, 16 V                | 1        |
 | LED                 | 5mm                             | 3        |
 | Motor DC            | 3--6 V, doble eje               | 2        |
-| Rueda motriz        | 68$\times$26mm                  | 2        |
+| Rueda motriz        | 68x26mm                         | 2        |
 | Disco encoder       | 25.5mm, 20 ranuras              | 2        |
 | Rueda castor        | 25 mm                           | 1        |
 | Breadboard          | 170 puntos                      | 1        |
 | Cable Dupont        | 10cm macho-hembra               | 34       |
 | Cable Dupont        | 10cm macho-macho                | 13       |
-| Cable               | 1.5$\times$100mm                | 6        |
+| Cable               | 1.5x100mm                       | 6        |
 | Interruptor         | 20mm                            | 1        |
-| Tornillo            | 3$\times$12mm auto-perf.        | 12       |
-| Tornillo            | 3$\times$12mm cabeza plana      | 2        |
-| Tornillo            | 3$\times$30mm cabeza plana      | 4        |
+| Tornillo            | 3x12mm auto-perf.               | 12       |
+| Tornillo            | 3x12mm cabeza plana             | 2        |
+| Tornillo            | 3x30mm cabeza plana             | 4        |
 | Tuerca              | 3mm                             | 6        |
-| Porta pilas         | 4$\times$AA                     | 2        |
+| Porta pilas         | 4xAA                            | 2        |
 | Pila recargable     | AA, 2700mAh                     | 8        |
 | Chasis              | PLA, 250g                       | 1        |
 
+Al ser imprimible, el chasis puede ser modificado desde su modelo 3D y queda abierto a que modifiquen el AR2R4 de la manera que más les interese.
+
+## Circuito
+
+También les dejamos una imagen mostrando todas las conexiones eléctricas de este modelo del AR2R4, para que puedan recrearlo. Tengan en cuenta que los cables más gruesos son para conectar los motores al driver y el driver a las baterías.
 
 ![Diagrama de las conexiones de los componentes electrónicos del robot AR2R4](imagenes/AR2R4_circuito.png)
